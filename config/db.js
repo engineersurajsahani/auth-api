@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/auth_api_service');
+mongoose.connect('mongodb+srv://surajsahani:surajsahani@cluster0.chshyik.mongodb.net/');
 
 const db=mongoose.connection;
 
