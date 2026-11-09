@@ -4,7 +4,7 @@ const db = require('./config/db');
 const cors=require('cors');
 
 const app = express();
-app.use(cors('*'));
+app.use(cors('https://bhumika-auth-webapp.netlify.app/'));
 app.use(express.json());
 app.use('/users', authRouter);
 
